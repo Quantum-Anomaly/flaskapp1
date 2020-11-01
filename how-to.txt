@@ -1,0 +1,13 @@
+Run and install fresh location:
+
+Source current env (learn more about how this can be done, and packages to include in sourced env)
+#from ```cd /home/cenright/Documents/coding/GITproject/flask/bagl/```
+
+source bagl/bin/activate
+
+#packages to install if location / venv moved
+pip install flask-sqlalchemy
+pip install flask-migrate
+pip install flask-login
+pip install  flask-wtf
+pip install email-validator
